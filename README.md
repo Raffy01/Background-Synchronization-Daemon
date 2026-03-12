@@ -2,7 +2,6 @@
 
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![OpenSSL](https://img.shields.io/badge/OpenSSL-721412?style=for-the-badge&logo=openssl&logoColor=white)
 
 This repository provides a C-based client-daemon architecture for monitoring and backing up files and directories in real-time. The main Command Line Interface (CLI) application dispatches independent background daemon processes that continuously track file modifications using MD5 hash comparisons and automatically create timestamped backups.
 
